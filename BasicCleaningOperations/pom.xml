@@ -21,6 +21,11 @@
             <artifactId>guava</artifactId>
             <version>24.0-jre</version>
         </dependency>
+        <dependency>
+            <groupId>de.julielab</groupId>
+            <artifactId>aliasi-lingpipe</artifactId>
+            <version>4.1.0</version>
+        </dependency>
     </dependencies>
 
 </project>
