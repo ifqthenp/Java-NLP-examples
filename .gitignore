@@ -4,4 +4,4 @@ out/
 .idea_modules/
 *.iws
 .editorconfig
-
+*.pdf
