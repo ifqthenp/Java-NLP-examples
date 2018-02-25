@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nlp.tutorials</groupId>
+    <artifactId>StemmingAndLemmatization</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <dep.ver.opennlp>1.8.4</dep.ver.opennlp>
+        <dep.ver.lingpipe>4.1.0</dep.ver.lingpipe>
+        <dep.ver.stanford-corenlp>3.8.0</dep.ver.stanford-corenlp>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.opennlp/opennlp-tools -->
+        <dependency>
+            <groupId>org.apache.opennlp</groupId>
+            <artifactId>opennlp-tools</artifactId>
+            <version>${dep.ver.opennlp}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/de.julielab/aliasi-lingpipe -->
+        <dependency>
+            <groupId>de.julielab</groupId>
+            <artifactId>aliasi-lingpipe</artifactId>
+            <version>${dep.ver.lingpipe}</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>${dep.ver.stanford-corenlp}</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>${dep.ver.stanford-corenlp}</version>
+            <classifier>models</classifier>
+        </dependency>
+    </dependencies>
+</project>
